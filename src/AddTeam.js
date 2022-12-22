@@ -15,6 +15,7 @@ const AddTeam = (props) => {
         setteam("");
         alert("New Team Member has been Added")
     }
+    document.title="Add Team";
   return (  
     <>
     <Form onSubmit={add}>

@@ -4,6 +4,7 @@ import femaleprofile from './Images/femaleprofile.png';
 import maleprofile from './Images/maleprofile.png';
 
 const Employees = (props) => {
+  document.title="Team Manager";
       return(
         <main className='container'>
         <div className='row justify-content-center mt-3 mb-3'>

@@ -3,7 +3,7 @@ import React from 'react'
 import { useState } from 'react';
 
 const TeamAllocation= ({ employee, selectedTeam, setTeam }) => {
-
+    document.title="Team Details";
   const [groupedEmployees, setGroupedData] = useState(groupTeamMembers());
 
   function groupTeamMembers() {
